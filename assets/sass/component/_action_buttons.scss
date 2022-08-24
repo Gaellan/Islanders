@@ -2,11 +2,35 @@
   background-image: url("assets/images/map.svg"), url("assets/images/water.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 75%;
 }
 
 .inventory-button {
   background-image: url("assets/images/backpack.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.build-button {
+  background-image: url("assets/images/hammer.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+}
+
+.dig-button {
+  background-image: url("assets/images/shovel.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.speak-button {
+  background-image: url("assets/images/speech.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.take-button {
+  background-image: url("assets/images/robot-hand.svg"), url("assets/images/water.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
