@@ -1,0 +1,29 @@
+.inventory {
+  background-color: #333333;
+  background-image: none;
+
+  &.health-potion {
+    background-image: url("assets/images/health-potion.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.mana-potion {
+    background-image: url("assets/images/mana-potion.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.gloves {
+    background-image: url("assets/images/gloves.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.meat {
+    background-image: url("assets/images/meat.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+

@@ -1,0 +1,616 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+.col-start-5 {
+  grid-column-start: 5;
+}
+
+.col-start-6 {
+  grid-column-start: 6;
+}
+
+.col-start-7 {
+  grid-column-start: 7;
+}
+
+.col-start-8 {
+  grid-column-start: 8;
+}
+
+.col-start-9 {
+  grid-column-start: 9;
+}
+
+.col-start-10 {
+  grid-column-start: 10;
+}
+
+.col-start-11 {
+  grid-column-start: 11;
+}
+
+.col-start-12 {
+  grid-column-start: 12;
+}
+
+.col-start-13 {
+  grid-column-start: 13;
+}
+
+.col-start-14 {
+  grid-column-start: 14;
+}
+
+.col-start-15 {
+  grid-column-start: 15;
+}
+
+.col-start-16 {
+  grid-column-start: 16;
+}
+
+.col-start-17 {
+  grid-column-start: 17;
+}
+
+.col-start-18 {
+  grid-column-start: 18;
+}
+
+.col-start-19 {
+  grid-column-start: 19;
+}
+
+.col-start-20 {
+  grid-column-start: 20;
+}
+
+.col-end-1 {
+  grid-column-end: 1;
+}
+
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.col-end-6 {
+  grid-column-end: 6;
+}
+
+.col-end-7 {
+  grid-column-end: 7;
+}
+
+.col-end-8 {
+  grid-column-end: 8;
+}
+
+.col-end-9 {
+  grid-column-end: 9;
+}
+
+.col-end-10 {
+  grid-column-end: 10;
+}
+
+.col-end-11 {
+  grid-column-end: 11;
+}
+
+.col-end-12 {
+  grid-column-end: 12;
+}
+
+.col-end-13 {
+  grid-column-end: 13;
+}
+
+.col-end-14 {
+  grid-column-end: 14;
+}
+
+.col-end-15 {
+  grid-column-end: 15;
+}
+
+.col-end-16 {
+  grid-column-end: 16;
+}
+
+.col-end-17 {
+  grid-column-end: 17;
+}
+
+.col-end-18 {
+  grid-column-end: 18;
+}
+
+.col-end-19 {
+  grid-column-end: 19;
+}
+
+.col-end-20 {
+  grid-column-end: 20;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-start-3 {
+  grid-row-start: 3;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+.row-start-6 {
+  grid-row-start: 6;
+}
+
+.row-start-7 {
+  grid-row-start: 7;
+}
+
+.row-start-8 {
+  grid-row-start: 8;
+}
+
+.row-start-9 {
+  grid-row-start: 9;
+}
+
+.row-start-10 {
+  grid-row-start: 10;
+}
+
+.row-end-1 {
+  grid-row-end: 1;
+}
+
+.row-end-2 {
+  grid-row-end: 2;
+}
+
+.row-end-3 {
+  grid-row-end: 3;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
+}
+
+.row-end-5 {
+  grid-row-end: 5;
+}
+
+.row-end-6 {
+  grid-row-end: 6;
+}
+
+.row-end-7 {
+  grid-row-end: 7;
+}
+
+.row-end-8 {
+  grid-row-end: 8;
+}
+
+.row-end-9 {
+  grid-row-end: 9;
+}
+
+.row-end-10 {
+  grid-row-end: 10;
+}
+
+.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tree {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tree.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/tree.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tree.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/tree.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tree.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/tree.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tree.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/tree.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stump {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stump.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/stump.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stump.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/stump.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stump.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/stump.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stump.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/stump.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logs {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logs.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/logs.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logs.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/logs.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logs.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/logs.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logs.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/logs.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rocks {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rocks.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/rocks.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rocks.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/rocks.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rocks.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/rocks.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rocks.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/rocks.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cabin {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cabin.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/cabin.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cabin.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/cabin.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cabin.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/cabin.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cabin.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/cabin.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.camp-fire {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camp-fire.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/camp-fire.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camp-fire.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/camp-fire.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camp-fire.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/camp-fire.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camp-fire.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/camp-fire.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tent {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tent.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/tent.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tent.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/tent.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tent.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/tent.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tent.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/tent.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pier {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pier.grass {
+  background-color: #5da88a;
+  background-image: url("assets/images/pier.svg"), url("assets/images/grass.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pier.water {
+  background-color: #3b7693;
+  background-image: url("assets/images/pier.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pier.dirt {
+  background-color: #9b6a49;
+  background-image: url("assets/images/pier.svg"), url("assets/images/dirt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pier.sand {
+  background-color: #f9ee67;
+  background-image: url("assets/images/pier.svg"), url("assets/images/sand.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.minimap-button {
+  background-image: url("assets/images/map.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  background-color: #666666;
+}
+
+.inventory-button {
+  background-image: url("assets/images/backpack.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #666666;
+}
+
+.equipment-button {
+  background-image: url("assets/images/armor.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #666666;
+}
+
+.inventory {
+  background-color: #333333;
+  background-image: none;
+}
+.inventory.health-potion {
+  background-image: url("assets/images/health-potion.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.inventory.mana-potion {
+  background-image: url("assets/images/mana-potion.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.inventory.gloves {
+  background-image: url("assets/images/gloves.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.inventory.meat {
+  background-image: url("assets/images/meat.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body > main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #efefef;
+  display: grid;
+}
+@media (orientation: landscape) {
+  body > main {
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+body > main section {
+  border: dashed 1px #777777;
+}
