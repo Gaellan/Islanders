@@ -590,28 +590,32 @@ table {
 }
 
 .inventory {
-  background-color: #333333;
-  background-image: none;
+  background-color: #333333 !important;
+  background-image: none !important;
 }
 .inventory.health-potion {
-  background-image: url("assets/images/health-potion.svg");
+  background-image: url("assets/images/health-potion.svg") !important;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #333333 !important;
 }
 .inventory.mana-potion {
-  background-image: url("assets/images/mana-potion.svg");
+  background-image: url("assets/images/mana-potion.svg") !important;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #333333 !important;
 }
 .inventory.gloves {
-  background-image: url("assets/images/gloves.svg");
+  background-image: url("assets/images/gloves.svg") !important;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #333333 !important;
 }
 .inventory.meat {
-  background-image: url("assets/images/meat.svg");
+  background-image: url("assets/images/meat.svg") !important;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #333333 !important;
 }
 
 body > main {
