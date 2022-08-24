@@ -1,4 +1,5 @@
 let $island1 = {
+    id : 1,
     floors : [
         "WWWWWWWWWWWWWWWWWWWW",
         "WSSSGGGGGGGGGGGGGGGW",
@@ -56,11 +57,6 @@ let $island1 = {
         },
         {
             type : "pier",
-            posX : 3,
-            posY: 10,
-        },
-        {
-            type : "pier",
             posX : 20,
             posY: 5,
         },
@@ -69,8 +65,19 @@ let $island1 = {
             posX : 9,
             posY: 5,
         },
-    ]
+    ],
+    waypoints : {
+        next : {
+            posX : 20,
+            posY: 5,
+        },
+        prev : null,
+    }
 };
+
+let $islands = [
+    $island1
+];
 
 export { $island1 };
 

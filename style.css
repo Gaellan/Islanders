@@ -589,6 +589,12 @@ table {
   background-position: center;
 }
 
+.cut-button {
+  background-image: url("assets/images/axe.svg"), url("assets/images/water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .inventory {
   background-color: #333333 !important;
   background-image: none !important;
