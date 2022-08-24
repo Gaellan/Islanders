@@ -4,6 +4,7 @@ import { createBuildButton } from "./build/build.js";
 import { createDigButton } from "./dig/dig.js";
 import { createSpeakButton } from "./speak/speak.js";
 import { createTakeButton } from "./take/take.js";
+import { createCutButton } from "./cut/cut.js";
 
 export default function loadActionBar() {
     createMinimapButton();
@@ -12,4 +13,5 @@ export default function loadActionBar() {
     createDigButton();
     createSpeakButton();
     createTakeButton();
+    createCutButton();
 }
