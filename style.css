@@ -553,25 +553,16 @@ table {
 }
 
 .minimap-button {
-  background-image: url("assets/images/map.svg");
+  background-image: url("assets/images/map.svg"), url("assets/images/water.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75%;
-  background-color: #666666;
 }
 
 .inventory-button {
-  background-image: url("assets/images/backpack.svg");
+  background-image: url("assets/images/backpack.svg"), url("assets/images/water.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #666666;
-}
-
-.equipment-button {
-  background-image: url("assets/images/armor.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #666666;
 }
 
 .inventory {
